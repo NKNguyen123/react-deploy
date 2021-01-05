@@ -1,0 +1,28 @@
+.aboutBackground{
+  background-image: url(../pics/earbuds.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 80%;
+  position: fixed;
+  top: 0%;
+  left: 20%;
+}
+
+.bio{
+  top: 33%;
+  left: 22%;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: left;
+  color: white;
+  position: fixed;
+}
+
+.link{
+  color:lightblue;
+}
+
+.link:hover{
+  text-decoration: underline;
+}

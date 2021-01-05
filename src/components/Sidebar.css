@@ -1,0 +1,54 @@
+a:link {
+  text-decoration: none;
+}
+
+.Sidebar {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  align-items: center;
+  background: #8A2626;
+}
+
+.SidebarButton {
+  font-size: 30px;
+  font-family: monospace;
+  color: black;
+  padding-bottom: 10px;
+  display:block;
+}
+
+.SidebarButton:hover {
+  color: white;
+  background: #FF9841;
+  text-decoration: underline;
+}
+
+.SidebarButtonActive {
+  color: white;
+}
+
+.Name{
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  padding-top: 30px;
+}
+
+.Caption {
+  font-size: 20px;
+  padding-bottom: 30px;
+  font-family: monospace;
+}
+
+.SidebarPic{
+  position: relative;
+  top: 2%;
+  border-radius: 50%;
+  border: solid;
+  width: 50%;
+}

@@ -1,0 +1,32 @@
+.contactBackground{
+  background-image: url(../pics/mailboxes.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 80%;
+  position: fixed;
+  top: 0%;
+  left: 20%;
+}
+
+.contactheader{
+  font-family: playfair display;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  padding: 2%;
+}
+
+.rotate:hover{
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

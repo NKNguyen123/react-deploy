@@ -1,0 +1,31 @@
+.skillsBackground{
+  background-image: url(../pics/keyboard.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 80%;
+  position: fixed;
+  top: 0%;
+  left: 20%;
+}
+
+.skillsheader{
+  font-family: playfair display;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 3%;
+}
+
+.rotate:hover{
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

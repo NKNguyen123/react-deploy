@@ -1,0 +1,45 @@
+.educationBackground{
+  background-image: url(../pics/scucampus.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 80%;
+  position: fixed;
+  top: 0%;
+  left: 20%;
+}
+
+.sculogo{
+  position: fixed;
+  left: 27%;
+  height: 8%;
+  width: 25%;
+}
+
+.educationBox{
+  position: fixed;
+  background-color: rgba(128, 128, 128, 0.75);
+  bottom: 20%;
+  left: 25%;
+  border-radius: 20px;
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.educationBox p{
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.educationText{
+  text-align: left;
+  color: white;
+  font-family: raleway;
+  font-size: 30px;
+}
