@@ -24,22 +24,7 @@
   border-radius: 20px;
   text-align: left;
   color: white;
-  font-family: sans-serif;
+  font-family: Times;
   font-size: 30px;
   padding: 20px;
-}
-
-.educationBox p{
-  text-align: left;
-  color: white;
-  font-family: sans-serif;
-  font-size: 30px;
-  padding: 5px;
-}
-
-.educationText{
-  text-align: left;
-  color: white;
-  font-family: raleway;
-  font-size: 30px;
 }

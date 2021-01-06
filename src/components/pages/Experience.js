@@ -12,7 +12,7 @@ function Experience() {
       <br/>idea that the team wanted to pursue. Throughout the following
       <br/>year we joined the Bronco Venture Accelerator to get it rolling.
       <br/>Sponsored by Santa Clara University, I became a lead software
-      <br/>engineer in charge of web, algorithm, and database development.
+      <br/>engineer involved in web, algorithm, and database development.
       <br/>I primarily used C++, Python, HTML/CSS, and React. Our product
       <br/> was a class scheduler that optimally plans out a student's
       <br/>fastest path towards graduation. The algorithm dealt with the

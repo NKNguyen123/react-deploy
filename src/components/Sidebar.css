@@ -10,29 +10,29 @@ a:link {
   left: 0%;
   text-align: center;
   align-items: center;
-  background: #8A2626;
+  background: #576d79;
 }
 
 .SidebarButton {
   font-size: 30px;
   font-family: monospace;
-  color: black;
+  color: white;
   padding-bottom: 10px;
   display:block;
 }
 
 .SidebarButton:hover {
-  color: white;
-  background: #FF9841;
-  text-decoration: underline;
+  color: black;
+  background: #95a5ae;
 }
 
 .SidebarButtonActive {
-  color: white;
+  background: #95a5ae;
+  color: black;
 }
 
 .Name{
-  color: black;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   font-family: 'Courier New', monospace;
@@ -40,6 +40,7 @@ a:link {
 }
 
 .Caption {
+  color: white;
   font-size: 20px;
   padding-bottom: 30px;
   font-family: monospace;
@@ -50,5 +51,27 @@ a:link {
   top: 2%;
   border-radius: 50%;
   border: solid;
+  border-color: white;
   width: 50%;
+}
+
+.buttons{
+  position: relative;
+  top: 10%;
+}
+
+.top{
+  position: relative;
+  top: 10%;
+}
+
+.hello{
+  position: absolute;
+  font-size: 7px;
+  bottom: 5%;
+  left: 8%;
+  color: #576d79;
+}
+.hello:hover{
+  color: white;
 }

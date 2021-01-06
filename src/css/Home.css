@@ -1,11 +1,5 @@
-/* body{
-  background-image: url(../pics/luffysmile.PNG);
-  background-repeat: no-repeat;
-  background-position: 80% 0%;
-} */
-
 .homeBackground{
-  background-image: url(../pics/luffysmile.PNG);
+  background-image: url(../pics/sandtop.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100%;
@@ -17,7 +11,11 @@
 
 .Iam{
   padding: 5%;
-  font-size: 60px;
+  color: black;
+  font-size: 55px;
   font-weight: bold;
   font-family: monospace;
+  position: fixed;
+  bottom: 10%;
+  right: 0%;
 }

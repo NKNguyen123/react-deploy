@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
 import './Sidebar.css';
-import pic from '../pics/circle-cropped.png';
+import pic from '../pics/headshot2.png';
 import resume from '../Resume.pdf'
 
 class Sidebar extends Component {
@@ -14,17 +14,26 @@ class Sidebar extends Component {
 
     return(
       <div class = "Sidebar">
-      <img src = {pic} alt="Neil Nguyen - Headshot" class = "SidebarPic"/>
-      <div class = "Name">Neil Nguyen</div>
-      <div class = "Caption">Software Engineer in San Jose</div>
-      {
-        indexes.map(index =>(
-          <NavLink to={links[index]} className="SidebarButton" activeClassName="SidebarButtonActive">
-            {names[index]}
-          </NavLink>
-        ))
-      }
+        <div class = "top">
+            <img src = {pic} alt="Neil Nguyen - Headshot" class = "SidebarPic"/>
+            <div class = "Name">Neil Nguyen</div>
+            <div class = "Caption">Software Engineer in San Jose</div>
+        </div>
+        <div class = "buttons">
+        {
+          indexes.map(index =>(
+            <NavLink to={links[index]} className="SidebarButton" activeClassName="SidebarButtonActive">
+              {names[index]}
+              </NavLink>
+            ))
+        }
         <a href={resume} className="SidebarButton" target="_blank" rel="noreferrer">Resume</a>
+        </div>
+        <a href="https://ayakkala1.github.io/ayakkala.github.io/index.html" target="_blank">
+        <div class = "hello">
+        Hello :)
+        </div>
+        </a>
       </div>
     )
   }
