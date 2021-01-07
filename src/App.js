@@ -6,7 +6,7 @@ import About from './components/pages/About.js';
 import Skills from './components/pages/Skills.js';
 import Education from './components/pages/Education.js';
 import Experience from './components/pages/Experience.js';
-import Projects from './components/pages/Projects.js';
+// import Projects from './components/pages/Projects.js';
 import Contact from './components/pages/Contact.js';
 import './css/Pages.css';
 

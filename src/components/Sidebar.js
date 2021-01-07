@@ -29,10 +29,10 @@ class Sidebar extends Component {
         }
         <a href={resume} className="SidebarButton" target="_blank" rel="noreferrer">Resume</a>
         </div>
-        <a href="https://ayakkala1.github.io/ayakkala.github.io/index.html" target="_blank">
-        <div class = "hello">
-        Hello :)
-        </div>
+        <a href="https://ayakkala1.github.io/ayakkala.github.io/index.html" target="_blank" rel="noreferrer">
+          <div class = "hello">
+            Hello :)
+          </div>
         </a>
       </div>
     )
