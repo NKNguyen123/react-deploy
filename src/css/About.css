@@ -7,19 +7,23 @@
   position: fixed;
   top: 0%;
   left: 20%;
+  overflow: auto;
 }
 
 .bio{
   top: 33%;
   left: 3%;
-  height: 50%;
   width: 30%;
+  min-width: 400px;
   font-size: 20px;
   font-family: Times;
   text-align: left;
   color: white;
   position: relative;
   display: block;
+  background-color: rgba(128, 128, 128, 0.75);
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .link{

@@ -11,7 +11,7 @@
 }
 
 .experiencePic{
-  height: 100%;
+  height: 98%;
   width: 40%;
   border: solid;
   border-radius: 50px;
@@ -44,4 +44,9 @@
   padding: 2%;
   height: 30%;
   width: 70%;
+  overflow: auto;
 }
+
+/* .experienceBox::-webkit-scrollbar {
+  display: none;
+} */

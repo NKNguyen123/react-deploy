@@ -17,8 +17,9 @@ function Contact() {
         <img title="Click for my Linkedin" alt="Linkedin logo" src={linkedin} class="rotate" style={{height: "30%",width: "20%", padding:"5%"}}/>
       </a>
 
-      <img title="Click to copy my Gmail to your clipboard" alt="Gmail logo" src={gmail} class="rotate" style={{height:"30%", width:"20%", padding:"5%"}}
-        onClick={() => {navigator.clipboard.writeText("neil.bme@gmail.com")}}/>
+      <a href="mailto:neil.bme@gmail.com">
+        <img title="Click to copy my Gmail to your clipboard" alt="Gmail logo" src={gmail} class="rotate" style={{height:"30%", width:"20%", padding:"5%"}}/>
+      </a>
     </div>
   );
 }
