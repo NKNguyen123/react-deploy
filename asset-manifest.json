@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-deploy/static/css/main.ff32d1a5.chunk.css",
-    "main.js": "/react-deploy/static/js/main.dea13edf.chunk.js",
-    "main.js.map": "/react-deploy/static/js/main.dea13edf.chunk.js.map",
+    "main.css": "/react-deploy/static/css/main.8eac055c.chunk.css",
+    "main.js": "/react-deploy/static/js/main.406c05f2.chunk.js",
+    "main.js.map": "/react-deploy/static/js/main.406c05f2.chunk.js.map",
     "runtime-main.js": "/react-deploy/static/js/runtime-main.b61d25e3.js",
     "runtime-main.js.map": "/react-deploy/static/js/runtime-main.b61d25e3.js.map",
     "static/js/2.8661f905.chunk.js": "/react-deploy/static/js/2.8661f905.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.3d702baa.chunk.js": "/react-deploy/static/js/3.3d702baa.chunk.js",
     "static/js/3.3d702baa.chunk.js.map": "/react-deploy/static/js/3.3d702baa.chunk.js.map",
     "index.html": "/react-deploy/index.html",
-    "static/css/main.ff32d1a5.chunk.css.map": "/react-deploy/static/css/main.ff32d1a5.chunk.css.map",
+    "static/css/main.8eac055c.chunk.css.map": "/react-deploy/static/css/main.8eac055c.chunk.css.map",
     "static/js/2.8661f905.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.8661f905.chunk.js.LICENSE.txt",
-    "static/media/Resume.43f7f099.pdf": "/react-deploy/static/media/Resume.43f7f099.pdf",
+    "static/media/Resume.b68c0264.pdf": "/react-deploy/static/media/Resume.b68c0264.pdf",
     "static/media/c++.0a81196c.png": "/react-deploy/static/media/c++.0a81196c.png",
     "static/media/css.b1dc9eeb.png": "/react-deploy/static/media/css.b1dc9eeb.png",
     "static/media/About.css": "/react-deploy/static/media/earbuds.6c34f19c.jpg",
@@ -24,16 +24,19 @@
     "static/media/Contact.css": "/react-deploy/static/media/mailboxes.f8a68cec.jpg",
     "static/media/maker.6c623228.jpeg": "/react-deploy/static/media/maker.6c623228.jpeg",
     "static/media/Experience.css": "/react-deploy/static/media/plantwallrotated.3b727d00.jpg",
+    "static/media/powerautomate.b3b3fcc7.png": "/react-deploy/static/media/powerautomate.b3b3fcc7.png",
     "static/media/python.f22d1fce.png": "/react-deploy/static/media/python.f22d1fce.png",
     "static/media/react.73ac128a.png": "/react-deploy/static/media/react.73ac128a.png",
     "static/media/Home.css": "/react-deploy/static/media/sandtopedited.12d5c6e0.jpg",
     "static/media/Education.css": "/react-deploy/static/media/scucampus.22d42560.jpg",
-    "static/media/sculogo.da995981.png": "/react-deploy/static/media/sculogo.da995981.png"
+    "static/media/sculogo.da995981.png": "/react-deploy/static/media/sculogo.da995981.png",
+    "static/media/sharepoint.9641dc29.png": "/react-deploy/static/media/sharepoint.9641dc29.png",
+    "static/media/spark.0d73e8f2.png": "/react-deploy/static/media/spark.0d73e8f2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b61d25e3.js",
     "static/js/2.8661f905.chunk.js",
-    "static/css/main.ff32d1a5.chunk.css",
-    "static/js/main.dea13edf.chunk.js"
+    "static/css/main.8eac055c.chunk.css",
+    "static/js/main.406c05f2.chunk.js"
   ]
 }
