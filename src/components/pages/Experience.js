@@ -1,10 +1,13 @@
 import '../../css/Experience.css';
 import gp from '../../pics/gradplanner.jpeg'
 import maker from '../../pics/maker.jpeg'
+import gilead from '../../pics/gilead.jpg'
+
 
 function Experience() {
   return(
   <div className="experienceBackground">
+
     <div className="experienceBox">
       <img src={gp} alt="GradPlanner Team" className="experiencePic"/>
       <div className="experienceSummary">
@@ -24,6 +27,7 @@ function Experience() {
         as well as large scale project planning.
       </div>
     </div>
+
     <div className="experienceBox">
       <img src={maker} alt="Maker Lab" className="experiencePic"/>
       <div className="experienceSummary">
@@ -39,6 +43,22 @@ function Experience() {
         weekly promotional material.
       </div>
     </div>
+
+    <div className="experienceBox">
+      <img src={gilead} alt="Gilead Sciences" className="experiencePic"/>
+      <div className="experienceSummary">
+        <div className="experienceTitle">Gilead Sciences (Summer 2021)</div>
+        <div className="experienceCaption">Laboratory Systems Information Intern</div>
+        Before my summer began I accepted this position on what I like to call the "SharePoint Online Team" at Gilead.
+        I was tasked with helping on their current large scale project: the migration of their previous SharePoint platform to
+        the updated SharePoint Online. Here is where lots of different Gilead product informations were stored. I was able to learn
+        many different softwares along the way like SharePoint Online, Power Automate, and Visio. I assisted in automating data
+        migration, updating product pages, and producing project documentation like design specifications, flow diagrams, and entity mappings.
+        Additionally I was able to sit in and present the work I contributed in leadereship meetings.
+      </div>
+    </div>
+
+
   </div>
   );
 }

@@ -17,7 +17,7 @@ class Sidebar extends Component {
         <div class = "top">
             <img src = {pic} alt="Neil Nguyen - Headshot" class = "SidebarPic"/>
             <div class = "Name">Neil Nguyen</div>
-            <div class = "Caption">Software Engineer in San Jose</div>
+            <div class = "Caption">Software Engineer in Lathrop, CA</div>
         </div>
         <div class = "buttons">
         {
@@ -29,11 +29,7 @@ class Sidebar extends Component {
         }
         <a href={resume} className="SidebarButton" target="_blank" rel="noreferrer">Resume</a>
         </div>
-        <a href="https://ayakkala1.github.io/ayakkala.github.io/index.html" target="_blank" rel="noreferrer">
-          <div class = "hello">
-            Hello :)
-          </div>
-        </a>
+
       </div>
     )
   }

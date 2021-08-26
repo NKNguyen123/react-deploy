@@ -11,9 +11,9 @@ function Education() {
       </a>
 
       <div className="educationBox">
-        Bachelor's in Computer Science with a Minor in Mathematics by March 2021
+        Bachelor's in Computer Science with a Minor in Mathematics
         <br/>
-        <br/>Master's in Computer Science and Engineering by March 2022
+        <br/>Master's in Computer Science and Engineering by Winter 2022
       </div>
     </div>
   );
